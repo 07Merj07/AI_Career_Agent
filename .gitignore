@@ -1,0 +1,19 @@
+# ---- secrets (never upload) ----
+.env
+
+# ---- your personal data (never upload) ----
+settings.json
+CV/*
+!CV/cv_content.example.json
+Generated_CVs/
+Database/
+Jobs/
+Logs/
+
+# ---- old files kept only on your computer ----
+_old/
+
+# ---- Python ----
+.venv/
+__pycache__/
+*.pyc

@@ -1,0 +1,50 @@
+{
+  "_help": "Copy this file to settings.json and edit it. Anything you delete falls back to the default.",
+
+  "location": {
+    "city": "Istanbul",
+    "country_code": "tr",
+    "accept_other_cities_for_review": true,
+    "accept_remote_in_country": true
+  },
+
+  "search": {
+    "_help": "One job-API request per query per day; 'in <city>' is added automatically. Free plan: 200 requests/month.",
+    "job_api_queries": [
+      "data analyst intern",
+      "business intelligence intern",
+      "data science intern",
+      "AI machine learning intern",
+      "junior data analyst"
+    ],
+    "web_search": true,
+    "job_api_monthly_limit": 190
+  },
+
+  "roles": {
+    "_help": "Empty = built-in data / BI / AI / analyst roles. For another field list your own, e.g. [\"digital marketing\", \"social media\"].",
+    "role_keywords": [],
+    "level_keywords": []
+  },
+
+  "freshness": {
+    "max_age_days": 7,
+    "max_age_hours_linkedin": 72
+  },
+
+  "notifications": {
+    "max_jobs_per_day": 5,
+    "send_reviews": true,
+    "deadline_reminder_days": 3,
+    "daily_summary": true
+  },
+
+  "documents": {
+    "tailored_cv": true,
+    "cover_letter": true
+  },
+
+  "ai": {
+    "model": "qwen3.5:4b"
+  }
+}

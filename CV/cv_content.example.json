@@ -1,0 +1,53 @@
+{
+  "name": "Alex Demir",
+  "contact": {
+    "phone": "+90 500 000 00 00",
+    "email": "alex.demir@example.com",
+    "location": "Istanbul, Turkey",
+    "links": [
+      {"text": "GitHub: alexdemir", "url": "https://github.com/alexdemir"},
+      {"text": "LinkedIn: alexdemir", "url": "https://www.linkedin.com/in/alexdemir"}
+    ]
+  },
+  "section_order": ["summary", "education", "experience", "projects", "skills", "certifications"],
+  "summary": "Final-year Industrial Engineering student with hands-on experience in data analysis and reporting through internships and university projects. Interested in data-driven roles where analytical and business skills create impact.",
+  "education": [
+    {
+      "title": "Industrial Engineering | Example University, Istanbul",
+      "highlight": "GPA: 3.20  |  Expected 2027",
+      "bullets": [
+        "Relevant courses: Statistics, Database Systems, Operations Research."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Data Analytics Intern | Example Retail Company",
+      "bullets": [
+        "Cleaned and analysed weekly sales data from 25 stores in Excel and SQL.",
+        "Prepared a monthly sales dashboard used by the regional management team."
+      ]
+    },
+    {
+      "title": "Volunteer Team Coordinator | Example Student Club",
+      "bullets": [
+        "Coordinated a team of 8 students to organise two career events."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Demand Forecasting Project | Course Project",
+      "bullets": [
+        "Built a simple demand forecast in Python for a sample dataset and presented the results."
+      ]
+    }
+  ],
+  "skills": [
+    {"label": "Technical Skills", "value": "Python, SQL, Excel, Data Analysis, Data Visualization"},
+    {"label": "Languages", "value": "English (B2), Turkish (Native)"}
+  ],
+  "certifications": [
+    "Example Online Course - SQL for Data Analysis"
+  ]
+}
